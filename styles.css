@@ -1,0 +1,124 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background: rgb(255,205,205);
+    background: linear-gradient(0deg, rgba(255,205,205,1) 0%, rgba(215,247,255,1) 100%);
+    height: 700px;
+    color: #fff;
+    padding: 1rem 0;
+    align-content: flex-end;
+    text-align: center;
+    
+}
+
+#header h1{
+    margin-bottom: 0%;
+    font-size: 10rem;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #ffe9e9;
+   
+}
+
+#nav ul li {
+    display: inline-block;
+    margin: 0;
+    
+}
+
+#nav ul li a {
+    color: #e9b8b8;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+#nav ul li a:hover {
+   border-bottom: solid 2px #e9b8b8;
+    
+}
+
+#sobre-mi {
+    padding: 2rem;
+    background: #f5fdff;
+    text-align: center;
+}
+
+#sobre-mi h2 {
+    color: #e9b8b8;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.intro {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#experiencia {
+    padding: 2rem;
+    background: #fff7f7;
+
+}
+
+#experiencia h2 {
+    color: #e9b8b8;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+
+.experiencia {
+    display: flex;
+    padding: 5%;
+    color: #fff7f7;
+}
+
+.experiencia strong {
+    color: #b87373;
+}
+
+.experiencia p {
+    margin: 0% 3%;
+    padding: 2%;
+    width: 30%;
+    background-color: #e9b8b8;
+    border-radius: 2%;
+}
+
+
+#contacto {
+    padding: 2rem;
+    background: #f5fdff;
+    color: #e9b8b8;
+    text-align: center;
+}
+
+#contacto p{
+    color: #333;
+}
+
+#contacto a {
+    color: #b87373;
+    text-decoration: none;
+}
+
+img{
+    width: 20%;
+    border-radius: 50%;
+    border: solid 5px  #ffe9e9;
+}
