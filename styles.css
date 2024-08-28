@@ -7,20 +7,21 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg, rgb(255, 230, 234) 0%, rgb(255, 193, 224) 100%);
+    background: linear-gradient(0deg, rgba(255,205,205,1) 0%, rgba(215,247,255,1) 100%);
     color: #fff;
+    align-content: flex-end;
     text-align: center;
+    height: 700px;
     padding: 4rem 0;
 }
 
-header h1 {
-    font-size: 3rem;
-    font-weight: 700;
+header h1{
+    margin-bottom: 0%;
+    font-size: 8rem;
 }
 
 .navbar {
-    background-color: #ffd5df;
-    
+    background-color: #ffe9e9;
 }
 
 .navbar-brand {
@@ -53,8 +54,8 @@ img {
 }
 
 #experiencia strong{
-    color: #cc8596;
-    font-weight: 500;
+    color: #d38f8f;
+    font-weight: 600;
 }
 
 #experiencia h2 {
@@ -66,13 +67,12 @@ img {
 .experiencia {
     border-radius: 0.5rem;
     padding: 1rem;
-    color: #333;
+    color: #fff7f7;
 }
 
 .experiencia p {
     margin-bottom: 1rem;
-    background-color: rgb(255, 230, 234);
-    border: 1px solid #ddc0c7;
+    background-color: #ebc2c2;
     border-radius: 0.5rem;
     padding: 1rem;
 }
