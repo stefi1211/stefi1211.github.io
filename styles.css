@@ -1,124 +1,95 @@
 
 body {
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-#header {
-    background: rgb(255,205,205);
-    background: linear-gradient(0deg, rgba(255,205,205,1) 0%, rgba(215,247,255,1) 100%);
-    height: 700px;
+header {
+    background: linear-gradient(0deg, rgb(255, 230, 234) 0%, rgb(255, 193, 224) 100%);
     color: #fff;
-    padding: 1rem 0;
-    align-content: flex-end;
     text-align: center;
-    
+    padding: 4rem 0;
 }
 
-#header h1{
-    margin-bottom: 0%;
-    font-size: 10rem;
-}
-
-#nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background: #ffe9e9;
-   
-}
-
-#nav ul li {
-    display: inline-block;
-    margin: 0;
-    
-}
-
-#nav ul li a {
-    color: #e9b8b8;
-    text-decoration: none;
-    padding: 1rem;
-    display: block;
-}
-
-#nav ul li a:hover {
-   border-bottom: solid 2px #e9b8b8;
-    
-}
-
-#sobre-mi {
-    padding: 2rem;
-    background: #f5fdff;
-    text-align: center;
-}
-
-#sobre-mi h2 {
-    color: #e9b8b8;
+header h1 {
     font-size: 3rem;
-    font-weight: bold;
-    margin: 0%;
+    font-weight: 700;
 }
 
-.intro {
-    font-size: 1.2em;
+.navbar {
+    background-color: #ffd5df;
+    
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+
+
+.container {
+    padding: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
     color: #333;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #ffd1dc;
 }
 
 #experiencia {
     padding: 2rem;
-    background: #fff7f7;
+}
 
+#experiencia strong{
+    color: #cc8596;
+    font-weight: 500;
 }
 
 #experiencia h2 {
-    color: #e9b8b8;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-   
+    color: #eeb0bf;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .experiencia {
-    display: flex;
-    padding: 5%;
-    color: #fff7f7;
-}
-
-.experiencia strong {
-    color: #b87373;
-}
-
-.experiencia p {
-    margin: 0% 3%;
-    padding: 2%;
-    width: 30%;
-    background-color: #e9b8b8;
-    border-radius: 2%;
-}
-
-
-#contacto {
-    padding: 2rem;
-    background: #f5fdff;
-    color: #e9b8b8;
-    text-align: center;
-}
-
-#contacto p{
+    border-radius: 0.5rem;
+    padding: 1rem;
     color: #333;
 }
 
-#contacto a {
-    color: #b87373;
+.experiencia p {
+    margin-bottom: 1rem;
+    background-color: rgb(255, 230, 234);
+    border: 1px solid #ddc0c7;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+footer {
+    background: #ffebef;
+    color: #d4a2ae;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    color: #ff6f91;
     text-decoration: none;
 }
 
-img{
-    width: 20%;
-    border-radius: 50%;
-    border: solid 5px  #ffe9e9;
+footer a:hover {
+    text-decoration: underline;
+    color: #c77487;
 }
